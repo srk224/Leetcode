@@ -19,5 +19,4 @@ int rangeSumBST(TreeNode* root, int low, int high) {
         }
         return rangeSumBST(root->left,low,high) + rangeSumBST(root->right,low,high);
     }
-}
 
