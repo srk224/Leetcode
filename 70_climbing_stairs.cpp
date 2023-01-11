@@ -11,5 +11,5 @@ int climbStairs(int n) {
     }
 
 int main(){
-
+      climbStairs(5);
 }
