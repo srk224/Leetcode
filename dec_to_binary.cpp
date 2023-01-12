@@ -17,4 +17,5 @@ int dec_binary(int decimal){
 
 int main(){
   cout << dec_binary(9);
+  cout << dec_binary(20);
 }
