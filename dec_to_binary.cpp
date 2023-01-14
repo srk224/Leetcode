@@ -1,7 +1,7 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;    
-
+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
 int dec_binary(int decimal){
     int binary = 0, remainder, product = 1;
   while (decimal != 0) {
