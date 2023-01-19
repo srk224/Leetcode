@@ -1,6 +1,7 @@
 #include<vector>
 #include<set>
 #include<iostream>
+#include<map>
 using namespace std;
 int findDuplicate(vector<int> &arr) 
 {
