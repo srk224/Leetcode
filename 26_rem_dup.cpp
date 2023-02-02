@@ -19,7 +19,6 @@ int removeDuplicates(vector<int>& nums) {
            nums.push_back(i);
         }
         return ans;
-    }
 }
 
 int main(){
