@@ -8,7 +8,7 @@ using namespace std;
         if(s.size() == 0){
             return true;
         }
-        while(idx < s.size()){
+        while(idx < s.length())
             if( s[idx] == '(' || s[idx] == '[' || s[idx] == '{' ){
                 stack.push(s[idx]);
             }
