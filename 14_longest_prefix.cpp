@@ -12,5 +12,5 @@ string longestCommonPrefix(vector<string>& s) {
     }
 
 int main(){
-    
+    // <<
 }
