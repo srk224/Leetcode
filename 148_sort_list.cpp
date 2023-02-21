@@ -1,5 +1,10 @@
 #include<iostream>
 
+struct ListNode{
+    int data;
+    ListNode *next;
+}
+
  ListNode* sortList(ListNode* head) {
      ListNode* dummy = head;
         ListNode* final = head;
@@ -19,4 +24,7 @@
 
         return head;}
 
-        
+        int main(){
+
+        }
+
