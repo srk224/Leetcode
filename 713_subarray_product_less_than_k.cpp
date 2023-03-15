@@ -1,4 +1,4 @@
-#inlude<iostream>
+#include<iostream>
 #include<vector>
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
         if(k<= 1)return 0;
@@ -20,4 +20,5 @@
         
         return ans;
     }
+    //
 
