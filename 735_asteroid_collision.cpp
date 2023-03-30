@@ -4,7 +4,8 @@
 using namespace std;
 
 vector<int> asteroidCollision(vector<int>& a) {
-        stack<int> st;   
+        stack<int> st;
+        stack < int > temp;
         for(int i=0;i<a.size();i++){
             if(a[i]>0) st.push(a[i]);    // +ve element
             else if(a[i]<0) {            // -ve element
