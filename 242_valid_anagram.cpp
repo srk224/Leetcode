@@ -32,4 +32,5 @@ bool isAnagram(string s, string t) {
 
 int main(){
     isAnagram("car", "rac");
+      isAnagram("Shahrukh","ashna");
 }
