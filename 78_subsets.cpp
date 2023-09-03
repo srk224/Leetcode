@@ -12,9 +12,7 @@ vector<vector<int>> subsets(vector<int>& nums) {
         ans.push_back(push_arr);
     }
     for(auto i:nums){
-        for(auto j:nums){
-            cout << j << endl;
-        }
+        cout << i << endl;
     }
 }
 
