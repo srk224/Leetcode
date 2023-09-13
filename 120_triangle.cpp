@@ -12,3 +12,9 @@ using namespace std;
         }
         return *min_element(triangle[n-1].begin(), triangle[n-1].end());
     }
+
+int main()  {   
+    vector<vector<int>> triangle = {{2},{3,4},{6,5,7},{4,1,8,3}};
+    cout << minimumTotal(triangle);
+}   
+
