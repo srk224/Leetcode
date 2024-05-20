@@ -19,3 +19,10 @@ public:
         
     }
 };
+
+int mainn(){
+    vector<int> arr = {0,2,1,0};
+    Solution s;
+    cout<<s.peakIndexInMountainArray(arr);
+    return 0;
+}
